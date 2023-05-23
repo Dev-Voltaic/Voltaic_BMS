@@ -26,7 +26,7 @@ jobs:
           cd ..
           echo $version
           echo $(ls)
-          mkdir hex
+          mkdir bin
           mv DragonBMS_BLE_Firmware/DragonBMS_BLE_Firmware/build_release/zephyr/app_update.bin bin/
           rm -rf DragonBMS_BLE_Firmware
           cd bin
